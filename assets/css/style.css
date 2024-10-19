@@ -13,8 +13,8 @@
       --headings-style:     normal;
       --headings-letter-spacing: 0em;
       --headings-line-height: 1.5;     
-      --color:              #FF4B33;  
-      --color-rgb:          255, 75, 51;   
+      --color:              #000000;  
+      --color-rgb:          0, 0, 0;   
     }
   html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -2364,4 +2364,23 @@ hr::before,
          img.is-loaded {
                opacity: 1;
                transition: opacity .6s cubic-bezier(.215,.61,.355,1), transform .2s ease-out!important; 
-         }
+         }/*
+ * Put your custom CSS code here
+ */
+
+#header {
+  padding: 1em 0 !important;
+  background-image: url('/media/posts/8/responsive/cropped-ssztanc1-xxl.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 12em;
+  border-bottom: 0px solid #000 !important;
+}
+
+.toggle {
+  color: #000 !important;
+}
+
+header.major > :last-child {
+  border-bottom-color: #000 !important;
+}
