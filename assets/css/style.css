@@ -2370,11 +2370,7 @@ hr::before,
 
 #header {
   padding: 1em 0 !important;
-  background-image: url('/cropped-ssztanc.jpg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 12em;
-  border-bottom: 0px solid #000 !important;
+  border-bottom-color: #000 !important;
 }
 
 .toggle {
